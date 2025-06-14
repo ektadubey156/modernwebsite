@@ -10,7 +10,8 @@ export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-16">
       {/* Canvas Background */}
-      <CanvasBackground className="absolute inset-0 -z-10" />
+      <CanvasBackground className="absolute inset-0 w-full h-full -z-10" />
+
 
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background -z-10" />

@@ -28,17 +28,18 @@ export default function CanvasBackground({ className = "" }: CanvasBackgroundPro
     if (!ctx) return
 
     // Set canvas dimensions
-    const setCanvasDimensions = () => {
-      const dpr = window.devicePixelRatio || 1
-      canvas.width = window.innerWidth * dpr
-      canvas.height = window.innerHeight * dpr
-      ctx.scale(dpr, dpr)
+   const setCanvasDimensions = () => {
+  const dpr = window.devicePixelRatio || 1;
+  const width = canvas.offsetWidth;
+  const height = canvas.offsetHeight;
 
-      // Set CSS dimensions
-      canvas.style.width = `${window.innerWidth}px`
-      canvas.style.height = `${window.innerHeight}px`
-    }
+  // Set canvas pixel dimensions for high-DPI rendering
+  canvas.width = width * dpr;
+  canvas.height = height * dpr;
 
+  ctx.setTransform(1, 0, 0, 1, 0, 0); // Reset any existing transforms
+  ctx.scale(dpr, dpr);
+};
     setCanvasDimensions()
 
     // Create particles
