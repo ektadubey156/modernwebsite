@@ -36,8 +36,14 @@ export default function Hero() {
           </div>
 
           <div className="mt-16 glass-card p-6 rounded-2xl lift-up">
-            <div className="aspect-video rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center">
-              <div className="text-white font-heading font-bold text-xl">E-Commerce Growth Strategy</div>
+            <div className="aspect-video rounded-lg flex items-center justify-center" >
+              <img
+        src="/hero-image.jpg"
+        alt="Example"
+        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+      />
+             
+              
             </div>
           </div>
         </div>
