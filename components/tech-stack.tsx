@@ -5,25 +5,18 @@ const techStack = [
   {
     category: "Frontend Tools",
     technologies: [
-      { name: "HTML5", icon: "/placeholder.svg?height=60&width=60" },
-      { name: "CSS3", icon: "/placeholder.svg?height=60&width=60" },
-      { name: "JavaScript", icon: "/placeholder.svg?height=60&width=60" },
-      { name: "Tailwind CSS", icon: "/placeholder.svg?height=60&width=60" },
-      { name: "React.js", icon: "/placeholder.svg?height=60&width=60" },
-    ],
-  },
-  {
-    category: "UI/UX Tools",
-    technologies: [
-      { name: "Figma", icon: "/placeholder.svg?height=60&width=60" },
-      { name: "Adobe XD", icon: "/placeholder.svg?height=60&width=60" },
+      { name: "HTML5", icon: "/HTML5_Logo.svg?height=60&width=60" },
+      { name: "CSS3", icon: "/CSS3.svg?height=60&width=60" },
+      { name: "JavaScript", icon: "/JavaScript.svg?height=60&width=60" },
+      { name: "Tailwind CSS", icon: "/Tailwind CSS.svg?height=60&width=60" },
+      { name: "React.js", icon: "/React.svg?height=60&width=60" },
     ],
   },
   {
     category: "Animations",
     technologies: [
-      { name: "LottieFiles", icon: "/placeholder.svg?height=60&width=60" },
-      { name: "Framer Motion", icon: "/placeholder.svg?height=60&width=60" },
+      { name: "LottieFiles", icon: "/lottiefiles.svg?height=60&width=60" },
+      { name: "Framer Motion", icon: "/framer-motion.svg?height=60&width=60" },
     ],
   },
 ]
